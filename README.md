@@ -4,7 +4,7 @@ A modern web application to issue and verify certificates for institutes.
 
 ## Project Structure
 ```text
-certificates/
+certify/
 ├── docs/
 │   └── specs/
 │       └── LOGIN_PAGE.md       # Login page design & architecture specification

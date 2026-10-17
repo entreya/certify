@@ -1,4 +1,4 @@
-module github.com/entreya/certificates
+module github.com/entreya/certify
 
 go 1.26.0
 
