@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --color-brand-primary: #1f5f5b;
+  --color-brand-hover: #174744;
+  --color-brand-active: #113533;
+  --color-brand-surface: #eef3f2;
+  --color-brand-bg: #fafaf8;
+  --color-brand-border: #e6e6e1;
+  --color-brand-input-border: #d9d9d3;
+  --color-brand-text: #1c1c1a;
+  --color-brand-muted: #6b6b66;
+}
+
+:root {
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fafaf8;
+  color: #1c1c1a;
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
